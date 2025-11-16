@@ -1,1 +1,55 @@
-.header
+  .hero-RSTOP {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .hero-RSTOP-slide {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: heroRSTOPFade 40s infinite;
+  }
+
+  .slide1 { animation-delay: 0s; }
+  .slide2 { animation-delay: 8s; }
+  .slide3 { animation-delay: 16s; }
+  .slide4 { animation-delay: 24s; }
+  .slide5 { animation-delay: 32s; }
+
+  @keyframes heroRSTOPFade {
+    0%   { opacity: 0; }
+    10%  { opacity: 1; }
+    20%  { opacity: 1; }
+    30%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  .hero-RSTOP-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+
+  .hero-RSTOP-content {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-RSTOP-logo {
+    width: 80vw;
+    max-width: 1000px;
+    opacity: 0;
+    transform: scale(1);
+    transition: transform 1s cubic-bezier(0.05, 2.0, 0.5, 1), opacity 2s ease;
+    will-change: transform, opacity;
+    position: relative;
+  }
