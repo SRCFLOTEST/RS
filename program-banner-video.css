@@ -1,3 +1,9 @@
+/* ----------------------------------------
+   PLAYBILL SECTION STYLES
+   Each .hero section is a full-screen video and image block
+   with overlay text styled as a "playbill"
+----------------------------------------- */
+
 .hero {
   position: relative;
   height: 100vh; /* Full viewport height */
@@ -87,4 +93,53 @@
 .hero-overlay .button:hover {
   background-color: black;
   color: #1a202c;
+}
+
+/* ----------------------------------------
+   RESPONSIVE STYLES FOR PLAYBILLS
+   Ensures readability and layout on mobile
+----------------------------------------- */
+
+@media screen and (max-width: 860px) {
+  .hero {
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero video {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-overlay .heroLine1,
+  .hero-overlay .heroLine2,
+  .hero-overlay .heroLine4,
+  .hero-overlay .heroLine5,
+  .hero-overlay .heroLine6,
+  .hero-overlay .heroLine7 {
+    font-size: 20px;
+  }
+
+  .hero-overlay .heroLine3 {
+    font-size: 70px;
+  }
+
+  .hero-overlay .button {
+    font-size: 16px;
+  }
+}
+
+<!-- STYLES FOR STATIC HERO IMAGE -->
+  
+.heroimage {
+  background-image: url('https://static.tildacdn.com/tild6230-6436-4762-a131-343538303031/04.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
 }
