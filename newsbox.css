@@ -1,0 +1,29 @@
+.news-box {
+  width: 100%;
+  overflow: hidden;
+  background: #111;
+  color: #fff;
+  padding: 10px 0;
+  font-family: sans-serif;
+  border-top: 2px solid #444;
+  border-bottom: 2px solid #444;
+  position: relative;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 20vw; /* Start from 80% of viewport width */
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
