@@ -1,16 +1,12 @@
-.t050 .t-title_xxl {
-    font-size: 82px;
-    line-height: 1.17;
-    font-family: 'Bebas Neue';
-    letter-spacing: 4px;
-    color: #c9c9c9;
-}
+<style>
 
-.t050 h1 {
-    font-size: 82px;
-    line-height: 1.17;
-    font-family: 'Bebas Neue';
-    letter-spacing: 4px;
-    color: #c9c9c9;
+h1 {
+    font-size: 82px !important;
+    line-height: 1.17 !important;
+    font-family: 'Bebas Neue' !important;
+    letter-spacing: 4px !important;
+    color: #c9c9c9 !important;
 }
-
+    
+    
+</style>
