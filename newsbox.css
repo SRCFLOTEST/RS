@@ -5,25 +5,26 @@
   color: #fff;
   padding: 10px 0;
   font-family: sans-serif;
-  border-top: 2px solid #444;
-  border-bottom: 2px solid #444;
+  border-top: 0px solid #444;
+  border-bottom: 0px solid #444;
   position: relative;
 }
 
 .marquee {
   width: 100%;
   overflow: hidden;
-  position: relative;
 }
 
 .marquee-content {
   display: inline-block;
   white-space: nowrap;
-  padding-left: 20vw; /* Start from 80% of viewport width */
-  animation: scroll-left 30s linear infinite;
+  padding-left: 0;
+  animation: marquee 22s linear infinite;
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
-@keyframes scroll-left {
+@keyframes marquee {
   0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-50%); }
 }
