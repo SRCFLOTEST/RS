@@ -8,23 +8,29 @@
   border-top: 0px solid #444;
   border-bottom: 0px solid #444;
   position: relative;
+  white-space: nowrap;
 }
 
 .marquee {
-  width: 100%;
-  overflow: hidden;
-}
-
-.marquee-content {
   display: inline-block;
-  white-space: nowrap;
-  padding-left: 0;
-  animation: marquee 22s linear infinite;
+  padding-left: 100%;
+  animation: scroll 30s linear infinite;
   font-size: 18px;
   letter-spacing: 0.5px;
 }
 
-@keyframes marquee {
+.marquee::after {
+  content: attr(data-text);
+  padding-left: 2rem;
+}
+
+@keyframes scroll {
   0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  100% { transform: translateX(-100%); }
+}
+
+/*-- STOP SCROLL ON HOVER --*/
+.news-box:hover .marquee,
+.marquee:hover {
+  animation-play-state: paused;
 }
