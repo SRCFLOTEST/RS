@@ -1,1 +1,22 @@
+/* SLIDER FIRST ROW lEFT-TO-RIGHT */
+#rec1231356726 {
+  transform: rotate(180deg) !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
 
+#rec1231356726 img {
+  transform: rotate(180deg) !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+#rec1231390656 {
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+#rec1231390656 img {
+  pointer-events: none !important;
+  user-select: none !important;
+}
