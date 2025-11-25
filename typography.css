@@ -19,8 +19,7 @@ h1 {
 
 /*-- Smaller texts such as those in the Bar & Beyond section under Signature Cocktails --*/
 .t-descr_sm {
-    font-size: 16px;
-    line-height: 1.55;
+    font-size: 16px !important;
 }
     
 </style>
