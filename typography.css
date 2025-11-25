@@ -1,5 +1,5 @@
 <style>
-
+/*-- Main SECTION AND FORM headers --*/
 h1 {
     font-size: 82px !important;
     line-height: 1.17 !important;
@@ -7,12 +7,14 @@ h1 {
     letter-spacing: 4px !important;
     color: #c9c9c9 !important;
 }
-
-
-
-
+/*-- Intro text under the SECTION headers --*/
 .t-text_md {
     font-size: 18px !important;
+}
+/*-- Text under the FORM header --*/
+.t-descr_xxl {
+    font-size: 16px !important;
+    line-height: 1.55 !important;
 }
     
 </style>
