@@ -1,21 +1,33 @@
-<style>
-/*-- Main SECTION AND FORM headers --*/
+/*-- GENERAL FONTS SECTION HEADERS --*/
+
 h1 {
-    font-size: 82px !important;
-    line-height: 1.17 !important;
-    font-family: 'Bebas Neue' !important;
-    letter-spacing: 4px !important;
-    color: #c9c9c9 !important;
-}
-/*-- Intro text under the SECTION headers --*/
-.t-text_md {
-    font-size: 18px !important;
-}
-/*-- Text under the FORM header --*/
-.t050__descr .t-descr .t-descr_xxl {
-    font-size: 16px !important;
-    line-height: 1.55 !important;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 82px;
+  line-height: 0.8;
+  letter-spacing: 1.5px;
+  color: #282828;
 }
 
-    
-</style>
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 68px;
+  line-height: 0.8;
+  letter-spacing: 0.5px;
+  color: #282828;
+  
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 0.9;
+  letter-spacing: 1.5px;
+  color: #282828;
+}
