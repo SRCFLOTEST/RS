@@ -1,5 +1,5 @@
 /*-- SECONDARY PAGES. HEADER WITH LOGO. FIXES ITS POSITION ON TOP AND PLACES THE SLIDER PERFECTLY INDERNEATH --*/
-#rec1615413623 {
+.uc-header-secondpages {
   position: fixed;     /* lock it relative to the viewport */
   top: 0;              /* stick to the very top */
   left: 0;
@@ -7,7 +7,6 @@
   z-index: 9999;       /* ensure it stays above other blocks */
 }
 
-/* Push the gallery block down */
-#rec1615413633 {
+.uc-header-secondpages-slider {
   padding-top: 200px !important;   /* match the height of the logo strip */
 }
