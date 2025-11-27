@@ -1,4 +1,4 @@
-/*-- HEADER WITH LOGO - SECONDARY PAGES. FIXES ITS POSITION ON TOP AND PLACES THE SLIDER PERFECTLY INDERNEATH --*/
+/*-- SECONDARY PAGES. HEADER WITH LOGO. FIXES ITS POSITION ON TOP AND PLACES THE SLIDER PERFECTLY INDERNEATH --*/
 #rec1615413623 {
   position: fixed;     /* lock it relative to the viewport */
   top: 0;              /* stick to the very top */
